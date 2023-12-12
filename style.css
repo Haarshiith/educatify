@@ -1,0 +1,167 @@
+/* HOME PAGE */
+
+body{
+    width: 100%;
+    background-color: black;
+}
+.container-fluid{
+    color: #7700b7;
+}
+.nav-items:hover{
+    border: 2px solid #7700b7;
+    border-radius: 10px;
+}
+.bgimg{
+    margin-top: 10px;
+    background-image: url(bgimg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote{
+    font-size: 60px;
+    float: right;
+    margin-top: 200px;
+    margin-left: 700px;
+    font-style: italic;
+}
+#gallery{
+    color: #7700b7;
+    background-color: #fdf7ef;
+    margin-top: 20px;
+    margin-left: 660px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+}
+#images1{
+    border-radius: 10px;
+    border: 5px ridge black;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display:inline-block;
+    margin-left: 200px; 
+}
+#images2{
+    border-radius: 10px;
+    border: 5px ridge black;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display:inline-block;
+    margin-left: 200px; 
+}
+.gallery{
+    background-color: lightblue;
+}
+.carousel-inner{
+    text-align: center;
+}
+#program{
+    color: #7700b7;
+    background-color: #fdf7ef;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-left: 660px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+}
+.program{
+    display: flex;
+    margin-left: 250px;
+}
+.footer{
+    color: grey;
+    background-color: white;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+li{
+    list-style: none; 
+}
+.foot{
+    float: left;
+    margin-right: 100px;
+}
+#foot{
+    display: flex;
+    margin-left: -30px;
+}
+#foot li{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SIGN IN PAGE */
+
+.signin{
+    background-image: url(signin.jpg);
+    height: 785px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+.box{
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    height: 400px;
+    text-align: center;
+    line-height: 50px;
+}
+.box form{
+    margin-top: 20px;
+}
+.box input{
+    margin-top: 20px;
+}
+.box label{
+    margin-top: -20px;
+}
+.box p{
+    margin-top: -20px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 5px 50px;
+}
+.login a:hover{
+    color: black;
+}
+.forget{
+    color: red;
+}
+.forget:hover{
+    color: red;
+}
+.click{
+    color: red;
+}
+.click:hover{
+    color: red;
+}
